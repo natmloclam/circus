@@ -1,5 +1,11 @@
 package circus;
 
+import java.awt.image.AreaAveragingScaleFilter;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Objects;
+
+import circus.animal.Elephant;
 import circus.stuff.Equipment;
 import circus.stuff.Cannon;
 import circus.stuff.Ladder;
