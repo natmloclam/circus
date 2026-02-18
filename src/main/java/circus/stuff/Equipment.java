@@ -8,4 +8,7 @@ public abstract class Equipment implements Asset {
     public Equipment(int purchasePrice) {
         this.purchasePrice = purchasePrice;
     }
+
+    @Override
+    public abstract int getValue();
 }
